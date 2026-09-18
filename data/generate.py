@@ -39,7 +39,7 @@ EVENTS = [
     {"id": "mega_gift", "month": "2024-11",
      "description": "Northbridge Family Foundation gives a one-off $5,000,000 wire."},
     {"id": "card_outage", "month": "2025-03",
-     "description": "Card processor outage: recurring card subscriptions churn at 3x the normal rate."},
+     "description": "Card processor outage: recurring card subscriptions churn at 6x the normal rate."},
     {"id": "year_end_campaign", "month": "2025-12",
      "description": "Year-end campaign doubles new donor acquisition (one-off and recurring)."},
     {"id": "paypal_default", "month": "2026-02",
@@ -115,7 +115,7 @@ def main():
             add_gift(donor_id, month, max(5, rng.lognormal(np.log(60), 1.0)), platform, "one_off")
 
         # Recurring: existing subscriptions churn or charge, then new ones start
-        churn_card = CHURN * 3 if m == "2025-03" else CHURN
+        churn_card = CHURN * 6 if m == "2025-03" else CHURN
         still_active = []
         for sub in subscriptions:
             p = churn_card if sub["platform"] == "card" else CHURN
