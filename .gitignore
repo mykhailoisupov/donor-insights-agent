@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.env
+data/*.csv
+data/events.json
+outputs/
