@@ -1,11 +1,3 @@
-"""Generate a synthetic nonprofit donations dataset with planted events.
-
-Every donor, gift and organisation here is fake. The planted events in EVENTS
-are the ground truth that the agent's explanations are graded against.
-
-Run: python data/generate.py
-Writes: data/donors.csv, data/gifts.csv, data/events.json
-"""
 import json
 from pathlib import Path
 
@@ -23,7 +15,6 @@ LAST = ["Kovalenko", "Smith", "Bondar", "Miller", "Shevchuk", "Brown", "Melnyk",
 COUNTRIES = ["US", "UA", "DE", "GB", "PL", "CA"]
 COUNTRY_P = [0.40, 0.25, 0.10, 0.10, 0.08, 0.07]
 
-# (name, gift size in USD, months between gifts)
 INSTITUTIONS = [
     ("Northbridge Family Foundation", 150_000, 12),
     ("Harbor Light Trust", 40_000, 1),
@@ -49,10 +40,10 @@ EVENTS = [
      "description": "Harbor Light Trust, which gave $40,000 every month, stops giving."},
 ]
 
-BASE_NEW_ONE_OFF = 120      # new one-off donors per month
-BASE_NEW_RECURRING = 25     # new recurring subscriptions per month
-REPEAT_RATE = 0.02          # monthly chance a past one-off donor gives again
-CHURN = 0.035               # monthly churn of recurring subscriptions
+BASE_NEW_ONE_OFF = 120
+BASE_NEW_RECURRING = 25
+REPEAT_RATE = 0.02
+CHURN = 0.035
 RECURRING_AMOUNTS = [10, 20, 25, 50, 100]
 RECURRING_P = [0.25, 0.30, 0.20, 0.18, 0.07]
 
@@ -85,14 +76,13 @@ def main():
 
     institutions = {name: new_donor("organization", name) for name, _, _ in INSTITUTIONS}
     one_off_donors = []
-    subscriptions = []  # dicts: donor_id, amount, platform
+    subscriptions = []
 
     for i, month in enumerate(MONTHS):
         m = str(month)
         campaign = 2.0 if m == "2025-12" else 1.0
         paypal_p = 0.5 if month >= pd.Period("2026-02", "M") else 0.2
 
-        # Institutional wires
         for j, (name, size, every) in enumerate(INSTITUTIONS):
             if name == "Harbor Light Trust" and month >= pd.Period("2026-05", "M"):
                 continue
@@ -103,7 +93,6 @@ def main():
             add_gift(institutions["Northbridge Family Foundation"], month, 5_000_000, "wire",
                      "institutional")
 
-        # One-off gifts: new donors, then repeat donors
         for _ in range(rng.poisson(BASE_NEW_ONE_OFF * season(month) * campaign)):
             donor_id = new_donor("individual")
             one_off_donors.append(donor_id)
@@ -114,7 +103,6 @@ def main():
             platform = "paypal" if rng.random() < paypal_p else "card"
             add_gift(donor_id, month, max(5, rng.lognormal(np.log(60), 1.0)), platform, "one_off")
 
-        # Recurring: existing subscriptions churn or charge, then new ones start
         churn_card = CHURN * 6 if m == "2025-03" else CHURN
         still_active = []
         for sub in subscriptions:
