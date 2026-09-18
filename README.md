@@ -18,6 +18,7 @@ All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2
 
 - `data/generate.py`: synthetic data and planted events
 - `agent/metrics.py`: analysis functions the agent calls as tools
+- `agent/analyst.py`: the agent (PydanticAI + gpt-4o-mini)
 - `tests/`: unit tests and checks that each planted event is detectable
 
 ## Run
@@ -29,13 +30,14 @@ pip install -r requirements.txt
 copy .env.example .env
 python data/generate.py
 python -m pytest
+python -m agent "What happened to recurring donations in March 2025?"
 ```
 
 ## Status
 
 - [x] Synthetic data
 - [x] Metrics
-- [ ] Agent (PydanticAI, gpt-4o-mini)
+- [x] Agent
 - [ ] Verifier
 - [ ] Evals
 - [ ] Demo

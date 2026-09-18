@@ -1,5 +1,6 @@
 numpy>=2.0
 pandas>=2.2
 matplotlib>=3.9
-pydantic-ai>=1.0
+pydantic-ai-slim[openai]>=2.45
+python-dotenv>=1.0
 pytest>=8.0
