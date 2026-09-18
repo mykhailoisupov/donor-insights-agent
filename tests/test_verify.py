@@ -50,3 +50,9 @@ def test_list_numbering_is_ignored():
                     {"name": "Sarah Melnyk", "total_last_3_months": 300.0}])]
     answer = "1. **Harbor Light Trust** - $132,080.11\n2. **Sarah Melnyk** - $300.00"
     assert check(answer, "", tool_calls) == []
+
+
+def test_written_dates_are_ignored():
+    tool_calls = [("largest_gifts", {"start": "2023-01", "end": "2023-12"},
+                   [{"date": "2023-04-28", "amount_usd": 225715.05}])]
+    assert check("The largest gift was $225,715.05 on April 28, 2023.", "", tool_calls) == []

@@ -2,6 +2,8 @@ import re
 
 MONTH = re.compile(r"\d{4}-\d{2}")
 DATE = re.compile(r"\b\d{4}-\d{2}(-\d{2})?\b")
+DAY = re.compile(r"\b(January|February|March|April|May|June|July|August|September|October|November|December)"
+                 r"\s+\d{1,2}(st|nd|rd|th)?\b")
 LIST_MARKER = re.compile(r"^\s*\d+[.)]\s", re.MULTILINE)
 YEAR = re.compile(r"(?<![$\d,.])\b(19|20)\d{2}\b(?![,.]?\d)")
 NUMBER = re.compile(r"(\$)?(\d[\d,]*(?:\.\d+)?)\s*(%|[KkMm]\b|thousand\b|million\b)?")
@@ -21,7 +23,7 @@ def facts(obj, month=None):
 
 
 def numbers(text):
-    text = YEAR.sub("", DATE.sub("", LIST_MARKER.sub("", text)))
+    text = YEAR.sub("", DATE.sub("", DAY.sub("", LIST_MARKER.sub("", text))))
     for _, digits, unit in NUMBER.findall(text):
         digits = digits.rstrip(",")
         decimals = len(digits.split(".")[1]) if "." in digits else 0
