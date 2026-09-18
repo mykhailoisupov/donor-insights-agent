@@ -49,12 +49,12 @@ def test_breakdown_filters_gift_type(g):
 
 
 def test_donor_counts(g):
-    assert metrics.donor_counts(g, "2025-03") == {"active_donors": 3, "new_donors": 1, "returning_donors": 2}
+    assert metrics.donor_counts(g, "2025-03") == {"month": "2025-03", "active_donors": 3, "new_donors": 1, "returning_donors": 2}
 
 
 def test_recurring(g):
     assert metrics.recurring(g, "2025-03") == {
-        "active_subscribers": 1, "mrr": 10, "new_subscribers": 0,
+        "month": "2025-03", "platform": "all", "active_subscribers": 1, "mrr": 10, "new_subscribers": 0,
         "churned_subscribers": 1, "churn_rate": 0.5}
 
 

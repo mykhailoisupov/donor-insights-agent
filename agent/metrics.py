@@ -41,7 +41,7 @@ def donor_counts(g, month):
     first_month = g.groupby("donor_id")["month"].min()
     active = g.loc[g["month"] == month, "donor_id"].unique()
     new = int((first_month[active] == month).sum())
-    return {"active_donors": len(active), "new_donors": new, "returning_donors": len(active) - new}
+    return {"month": month, "active_donors": len(active), "new_donors": new, "returning_donors": len(active) - new}
 
 
 def recurring(g, month, platform=None):
@@ -52,6 +52,8 @@ def recurring(g, month, platform=None):
     before = set(r.loc[r["month"] == previous_month(month), "donor_id"])
     churned = len(before - now)
     return {
+        "month": month,
+        "platform": platform or "all",
         "active_subscribers": len(now),
         "mrr": round(float(r.loc[r["month"] == month, "amount_usd"].sum()), 2),
         "new_subscribers": len(now - before),
