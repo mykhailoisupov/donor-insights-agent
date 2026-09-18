@@ -26,6 +26,7 @@ All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2
 - `agent/metrics.py`: analysis functions the agent calls as tools
 - `agent/analyst.py`: the agent (PydanticAI + gpt-4o-mini)
 - `agent/verify.py`: the verifier
+- `evals/`: 30 questions (lookups, explanations, unanswerable traps) and the eval runner
 - `tests/`: unit tests and checks that each planted event is detectable
 
 ## Run
@@ -38,7 +39,23 @@ copy .env.example .env
 python data/generate.py
 python -m pytest
 python -m agent "What happened to recurring donations in March 2025?"
+python -m evals.run 3
 ```
+
+## Results
+
+30 questions, 3 runs each, gpt-4o-mini ([details](evals/results.md)):
+
+| | Verifier off | Verifier on |
+|---|---|---|
+| Lookups correct | 100% | 97% |
+| Explanations correct | 57% | 60% |
+| Unanswerable questions refused | 90% | 87% |
+| Answers with unsupported numbers | 6% | 2% |
+
+- The verifier cuts unsupported numbers in explanations from 17% to 3%, but does not make the reasoning better.
+- Explanations are the weak spot: the agent often misses that the March 2025 churn was card-only and that the May 2026 drop was one lapsed donor.
+- Asked why a donor stopped giving, the agent speculates in every run instead of saying the data cannot tell.
 
 ## Status
 
@@ -46,5 +63,5 @@ python -m agent "What happened to recurring donations in March 2025?"
 - [x] Metrics
 - [x] Agent
 - [x] Verifier
-- [ ] Evals
+- [x] Evals
 - [ ] Demo

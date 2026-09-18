@@ -1,0 +1,2139 @@
+[
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": false,
+    "answer": "The total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": false,
+    "answer": "The total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": false,
+    "answer": "Total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": true,
+    "answer": "The total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": true,
+    "answer": "The total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was total revenue in June 2025?",
+    "expected": 193545.5,
+    "verifier": true,
+    "answer": "The total revenue in June 2025 was $193,545.50.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": false,
+    "answer": "The revenue for November 2024, excluding gifts over $1 million, was $94,412.09.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": false,
+    "answer": "The revenue in November 2024, excluding gifts over $1 million, was $94,412.09.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": false,
+    "answer": "The revenue in November 2024, excluding gifts over $1 million, was $94,412.09.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": true,
+    "answer": "It seems that I cannot retrieve the revenue data for November 2024 excluding gifts over $1 million.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": true,
+    "answer": "The revenue in November 2024, excluding gifts over $1 million, was $94,412.09.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was revenue in November 2024 excluding gifts over $1 million?",
+    "expected": 94412.09,
+    "verifier": true,
+    "answer": "The revenue in November 2024, excluding gifts over $1 million, was $94,412.09.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": false,
+    "answer": "In December 2025, we gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": false,
+    "answer": "In December 2025, you gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": false,
+    "answer": "In December 2025, we gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": true,
+    "answer": "In December 2025, we gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": true,
+    "answer": "In December 2025, we gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many new donors did we get in December 2025?",
+    "expected": 526.0,
+    "verifier": true,
+    "answer": "In December 2025, we gained 526 new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": false,
+    "answer": "In October 2024, there were a total of 600 active donors, which included 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": false,
+    "answer": "In October 2024, there were a total of 600 donors, which included 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": false,
+    "answer": "In October 2024, there were a total of 600 active donors, which included 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": true,
+    "answer": "In October 2024, there were 600 active donors, which included 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": true,
+    "answer": "In October 2024, there were a total of 600 active donors. This included 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many donors gave in October 2024?",
+    "expected": 600.0,
+    "verifier": true,
+    "answer": "In October 2024, there were a total of 600 active donors, including 166 new donors and 434 returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": false,
+    "answer": "In August 2026, there were 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": false,
+    "answer": "In August 2026, we had 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": false,
+    "answer": "In August 2026, we had 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": true,
+    "answer": "In August 2026, we had 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": true,
+    "answer": "In August 2026, we had 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "How many active recurring subscribers did we have in August 2026?",
+    "expected": 619.0,
+    "verifier": true,
+    "answer": "In August 2026, we had 619 active recurring subscribers.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": false,
+    "answer": "The monthly recurring revenue (MRR) in January 2024 was $7,900.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": false,
+    "answer": "The monthly recurring revenue (MRR) in January 2024 was $7,900. There were 273 active subscribers, with 21 new subscribers and 9 churned subscribers, resulting in a churn rate of 3.4%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": false,
+    "answer": "The monthly recurring revenue (MRR) in January 2024 was $7,900, with 273 active subscribers. There were 21 new subscribers, while 9 subscribers churned, resulting in a churn rate of 3.4%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": true,
+    "answer": "The monthly recurring revenue (MRR) in January 2024 was $7,900.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": true,
+    "answer": "In January 2024, the monthly recurring revenue (MRR) was $7,900, with 273 active subscribers. There were 21 new subscribers and 9 churned subscribers, resulting in a churn rate of 3.4%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was monthly recurring revenue in January 2024?",
+    "expected": 7900.0,
+    "verifier": true,
+    "answer": "The monthly recurring revenue (MRR) in January 2024 was $7,900, with 273 active subscribers. There were 21 new subscribers and 9 churned subscribers, resulting in a churn rate of 3.4%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": false,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": false,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": false,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": true,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": true,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the recurring churn rate in March 2025?",
+    "expected": 0.143,
+    "verifier": true,
+    "answer": "The recurring churn rate in March 2025 was 14.3%.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": false,
+    "answer": "In April 2026, 47.6% of one-off gifts were made with PayPal.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": false,
+    "answer": "In April 2026, 47.6% of one-off gifts were made with PayPal.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": false,
+    "answer": "In April 2026, 47.6% of one-off gifts were made with PayPal.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": true,
+    "answer": "In April 2026, PayPal accounted for 47.6% of one-off gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": true,
+    "answer": "In April 2026, 47.6% of one-off gifts were made with PayPal.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What share of one-off gifts in April 2026 were made with PayPal?",
+    "expected": 0.476,
+    "verifier": true,
+    "answer": "In April 2026, PayPal accounted for approximately 47.6% of one-off gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": false,
+    "answer": "The largest single gift in 2023 was from the Aster Education Foundation, amounting to $225,715.05, received on April 28, 2023, through a wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": false,
+    "answer": "The largest single gift in 2023 was $225,715.05, received from the Aster Education Foundation on April 28, 2023, via wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": false,
+    "answer": "The largest single gift in 2023 was from the Aster Education Foundation, amounting to $225,715.05. This gift was made on April 28, 2023, via wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": true,
+    "answer": "The largest single gift in 2023 was $225,715.05 from the Aster Education Foundation, received on April 28, 2023, via wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": true,
+    "answer": "The largest single gift in 2023 was from the Aster Education Foundation on April 28, amounting to $225,715.05, made via wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "What was the largest single gift in 2023?",
+    "expected": 225715.05,
+    "verifier": true,
+    "answer": "The largest single gift in 2023 was for $225,715.05, donated by the Aster Education Foundation on April 28, 2023, through a wire transfer.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": false,
+    "answer": "The top donor by total giving in 2025 was the Harbor Light Trust, which contributed a total of \\$470,599.86 through 11 gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": false,
+    "answer": "The top donor in 2025 was the Harbor Light Trust, which gave a total of $510,627.58 across 12 gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": false,
+    "answer": "The top donor by total giving in 2025 was the Harbor Light Trust, which contributed $510,627.58 through 12 gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": true,
+    "answer": "The top donor by total giving in 2025 was the Harbor Light Trust, contributing a total of $470,599.86 across 11 gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": true,
+    "answer": "The top donor by total giving in 2025 was **Harbor Light Trust**, an organization that contributed a total of **$470,599.86** through **11 gifts**.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "lookup",
+    "question": "Who was our top donor by total giving in 2025?",
+    "expected": "Harbor Light Trust",
+    "verifier": true,
+    "answer": "The top donor by total giving in 2025 was the Harbor Light Trust, with a total contribution of $510,627.58 through 12 gifts.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "Revenue in November 2024 was exceptionally high due to a significant institutional gift of $5,000,000 from the Northbridge Family Foundation. This contributed to a total revenue of $5,094,412.09, compared to $5,084,398.5 in October, reflecting a slight increase of 0.2%.\n\nNew donor activity also surged, with 179 new donors and 617 active donors in November, supporting the increase. However, monthly revenue excluding gifts over $1,000,000 actually decreased by 8.4% compared to October, indicating that the large gift played a crucial role in driving overall revenue up.",
+    "passed": true,
+    "unsupported": true,
+    "problems": [
+      "5.0844e+06 in the answer does not appear in any tool result.",
+      "change() was called with {'before': 5084398.5, 'after': 5094412.09}, but those values are not from tool results."
+    ],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "Revenue in November 2024 was exceptionally high at $5,094,412.09, largely due to a significant institutional gift of $5,000,000 from the Northbridge Family Foundation. Without this, revenue dropped to $94,412.09, highlighting a dramatic difference of 98.1%.\n\nThe donor landscape featured 617 active donors, including 179 new ones, and there was a commendable number of recurring subscribers (406) contributing a monthly revenue of $12,075. However, churn was slightly up from October's rate (4.2% versus 4.1%). This major single gift significantly overshadowed all other donations that month.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "Revenue in November 2024 was notably high at $5,094,412.09, primarily due to a single large gift of $5,000,000 from the Northbridge Family Foundation. \n\nWhen excluding gifts over $1,000,000, revenue was much lower at $94,412.09. This month also saw a slight increase in active subscribers (up 3.6%) and a stable count of donors (no change in active donors), but a slight decline in monthly recurring revenue (MRR) by 4.5%. The substantial contribution from the Northbridge Family Foundation was the key factor driving revenue for November 2024.",
+    "passed": true,
+    "unsupported": true,
+    "problems": [
+      "change() was called with before from 2024-11 and after from 2024-10. before must be the earlier month."
+    ],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "Revenue in November 2024 was exceptionally high at $5,094,412.09, primarily due to a significant institutional gift of $5,000,000 from the Northbridge Family Foundation. Excluding this large gift, revenue was only $94,412.09.\n\nAdditionally, there was a small increase in active donors (up 2.8% to 617) and recurring subscribers (up 3.6% to 406) from the previous month, indicating a steady growth in donor engagement, though these factors had less impact compared to the large single gift.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "Revenue in November 2024 was exceptionally high at $5,094,412.09, mainly due to a significant single gift of $5,000,000 from the Northbridge Family Foundation. Without this gift, revenue would have been only $94,412.09, reflecting a staggering 5295.9% increase attributed to this institutional donation.\n\nAdditionally, there were 617 active donors, an increase from 600 in October, including 179 new donors. The churn rate for recurring donors remained low at 4.1%. Hence, the primary driver for the revenue spike was the large institutional gift, supported by a modest increase in donor engagement.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why was revenue so high in November 2024?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "Revenue in November 2024 was significantly high at $5,094,412.09, primarily due to a substantial institutional gift of $5,000,000 from the Northbridge Family Foundation. \n\nThe month had a total of 617 active donors, including 179 new donors and 438 returning donors. The monthly recurring revenue (MRR) was $12,075, with a churn rate of 4.1%. \n\nThe sharp increase in revenue can be attributed to this large gift, which overshadowed other donations.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "The revenue spike in November 2024 was primarily driven by a single large gift of $5,000,000 from the Northbridge Family Foundation. Without this donation, the total revenue would have been approximately $94,412.09, indicating that while there were 617 active donors that month, the spike is attributed overwhelmingly to this substantial gift.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "The revenue spike in November 2024 was primarily driven by one large gift. The total revenue for the month was $5,094,412.09, with $5,000,000 coming from a single donation by the Northbridge Family Foundation. In contrast, the revenue excluding gifts over $1,000,000 was only $94,412.09, indicating that this single gift was the main contributor to the spike. Additionally, there were 617 active donors, including 179 new donors and 438 returning donors, which suggests a healthy donor base, but the large gift was the key factor in the revenue increase.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": false,
+    "answer": "The revenue spike in November 2024 was primarily driven by a single large gift of $5,000,000 from the Northbridge Family Foundation, while the revenue excluding large gifts was much lower at $94,412. Additionally, there were 617 active donors, indicating that the increase was not due to a significant rise in donor numbers. This supports the conclusion that the spike was largely due to one substantial contribution rather than many new or returning donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "The revenue spike in November 2024 was predominantly driven by one large gift of $5,000,000 from the Northbridge Family Foundation. The total revenue for the month was $5,094,412.09, but excluding gifts over $1,000,000, the revenue drops to just $94,412.09, indicating that the majority of the spike came from this single substantial donation.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "The revenue spike in November 2024 was primarily driven by a single large gift of $5,000,000 from the Northbridge Family Foundation. Total revenue was $5,094,412.09, but only $94,412.09 came from all other donations combined. The month had 617 active donors, with 179 new donors and 438 returning donors, indicating that while many participated, the significant increase was due to one major contribution.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Was the November 2024 revenue spike driven by many donors or by one gift?",
+    "expected": [
+      "northbridge"
+    ],
+    "verifier": true,
+    "answer": "The revenue spike in November 2024 was primarily driven by a significant single gift of $5,000,000 from the Northbridge Family Foundation. Overall revenue for the month reached $5,094,412.09, but excluding gifts over $1,000,000, revenue was only $94,412.09. \n\nAdditionally, there were 617 active donors, 179 new donors, and 438 returning donors, indicating that while donor participation was stable, the large gift was the main factor in the spike.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "In March 2025, recurring revenue fell by $1,185 (8.5%) compared to February, primarily due to a significant churn rate increase. Active subscribers declined from 470 to 425, with 67 churned subscribers in March compared to only 8 in February. This drop in active donors from 664 to 626 (a 5.7% decrease) also indicates a loss of support, contributing to the overall decline in recurring revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "Recurring revenue fell by $1,185 (8.5%) in March 2025 due to a significant increase in the churn rate, which rose from 1.7% to 14.3%, with 67 subscribers churning compared to just 8 in the previous month. Additionally, active donors decreased from 664 to 626, a drop of 38 donors (5.7%), indicating a decline in donor engagement. The combination of higher churn and fewer active donors likely contributed to the decline in recurring revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "Recurring revenue fell in March 2025 due to an increase in churned subscribers, which rose from 8 in February to 67 in March, leading to a significant decline in monthly recurring revenue (MRR) of $1,185, or 8.5%. The surge in churn suggests that more subscribers decided to cancel their recurring donations during this month.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "Recurring revenue fell by $1,185 (8.5%) in March 2025 primarily due to a significant increase in churned subscribers, rising from 8 to 67 (737.5%). This outweighed the gain of 22 new subscribers, leading to an overall decrease in active subscribers from 470 to 425 (9.6%). Therefore, the spike in churn rates was the main driver for the decline in recurring revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "In March 2025, recurring revenue fell by $1,305, a 12% decrease compared to February. This decline was primarily driven by a significant increase in the churn rate for card subscribers, which jumped to 17.7%. While new subscribers increased from 22 to 16, the churn rate and the total number of churned subscribers rose sharply, indicating that many existing donors discontinued their support. Overall, these changes suggest that higher churn among card subscribers was the main reason for the drop in revenue.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did recurring revenue fall in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "Recurring revenue fell in March 2025 primarily due to a significant increase in churned subscribers, which rose from 8 in February to 67 in March. This change resulted in a drop in monthly recurring revenue (MRR) by approximately 8.5%.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "The spike in churned subscribers in March 2025 was significant, increasing from 8 to 67, which is a 737.5% change. This increase corresponded with a rise in churn rate, primarily driven by the card platform, where 63 of the churned subscribers came from.\n\nThe churn may also be linked to the high number of new donors (145), as some subscribers might have decided to discontinue their subscriptions after the influx. Additionally, many donors who gave in the last three months did not contribute in March, contributing to this churn. This combination of factors suggests that new donors might not have been retained at the same rate, leading to increased churn.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "The spike in churned subscribers in March 2025 was significant, increasing by 59 subscribers (737.5% change) compared to the previous month. This coincided with a decrease in active donors from 664 in February to 626 in March, a drop of 5.7%. The higher churn rate suggests a loss of engagement, possibly due to the loss of donors affecting subscriber renewal behaviors.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": false,
+    "answer": "The spike in churned subscribers in March 2025 was significant, with a 737.5% increase, rising from 8 to 67 churned subscribers. This coincided with a drop in active subscribers from 470 to 425. Additionally, active donors decreased by 38, indicating a decline in overall engagement, which likely contributed to the higher churn rate. The combination of reduced active subscribers and donors suggests that the organization might have faced challenges retaining supporters during this period.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "In March 2025, churned subscribers increased sharply to 67, compared to just 8 in February. This resulted in a churn rate that rose from 1.7% to 14.3%. The higher churn rate may be linked to the loss of several donors who had given in the previous three months but did not donate in March, with notable names like Oleh Hnatyuk and Olena Melnyk among them. The combination of this donor loss and increased churn likely contributed to the spike in churned subscribers.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 1
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "The spike in churned subscribers in March 2025, which increased by 737.5% from 8 to 67, was largely driven by churn in card subscribers, where churned subscribers jumped from 6 to 63, a 950% increase. \n\nAdditionally, the active subscriber count fell from 470 to 425, indicating a general decline in engagement. There were 10 lapsed donors who were active in the previous three months but did not donate in March, which further suggests a loss of connection with some donors. The significant increase in churn can be attributed to these drops in subscriber activity and engagement.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What caused the spike in churned subscribers in March 2025?",
+    "expected": [
+      "card"
+    ],
+    "verifier": true,
+    "answer": "The spike in churned subscribers in March 2025, which increased by 737.5% from 8 to 67, was significant. This increase coincided with a rise in new subscribers, which may indicate a failure to retain previous subscribers amidst the acquisition of new ones. Additionally, a notable number of lapsed donors in March could have contributed to the overall decline in active subscribers. The combination of these factors suggests a shifting engagement that weakened existing subscriber loyalty.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": false,
+    "answer": "In December 2025, the number of new donors surged to 526, an increase of 198.9% from 176 in November. This growth is largely attributed to a significant rise in new subscribers, which jumped from 24 to 101, a 320.8% increase. Additionally, there were fewer lapsed donors in December compared to November, indicating improved donor retention.\n\nThe combination of new subscriber growth and enhanced retention likely drove the substantial increase in new donors during this month.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": false,
+    "answer": "In December 2025, the number of new donors jumped to 526, a remarkable increase of 198.9% from 176 in November. This surge coincided with a significant rise in new recurring subscribers, which increased from 24 to 101, a growth of 320.8%. \n\nAdditionally, there were fewer lapsed donors in December compared to the previous month, suggesting improved donor retention. The combination of these factors likely contributed to the spike in new donors, indicating effective outreach or campaigns during the holiday season.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": false,
+    "answer": "The number of new donors surged by 198.9% in December 2025, increasing from 176 to 526. This jump can be attributed to the year-end campaign, which generated significant engagement, leading to 1201 gifts compared to 749 gifts from the general campaign in November. The targeted campaign likely attracted new donors eager to contribute before the year's end.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": true,
+    "answer": "The jump in new donors in December 2025, increasing by 198.9% from 176 to 526, was largely driven by a focused year-end campaign that generated significant engagement. This campaign brought in $189,459.18 from 1,201 gifts, compared to the previous month’s general campaign, which raised $113,876.14 from 749 gifts. The heightened outreach and urgency of year-end giving likely attracted many new donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": true,
+    "answer": "The significant jump in new donors in December 2025 (with a 198.9% increase to 526 new donors) can be attributed to the year-end campaign, which was highly successful, generating $189,459.18 from 1,201 gifts. In comparison, the previous month (November 2025) only had 176 new donors from the general campaign, which brought in $113,876.14 from 749 gifts. The year-end push likely attracted more donors, leading to this increase.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did the number of new donors jump in December 2025?",
+    "expected": [
+      "campaign",
+      "year-end",
+      "year_end",
+      "year end"
+    ],
+    "verifier": true,
+    "answer": "The number of new donors in December 2025 jumped by 198.9%, from 176 to 526. This increase can be attributed primarily to a significant rise in new donors through the card payment platform, which saw an increase of 63.7% in the number of gifts (from 570 to 933). \n\nThus, the increase in donor activity, particularly in card donations, likely contributed to the overall surge in new donors for that month.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In February 2026, there was a significant decline in the revenue from one-off gifts, dropping by approximately $9,519 (a 49% decrease) compared to January 2026. This decline was primarily due to a decrease in the share of gifts made via the card platform, which was nearly halved, while the revenue from PayPal increased slightly.\n\nAdditionally, new donor numbers decreased from 163 in January to 134 in February, while the active donor count slightly decreased as well. Moreover, several donors who contributed in previous months did not give again in February, indicating a potential loss of engagement. These factors suggest a need for improved donor retention strategies and more engagement with existing donors.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In February 2026, there was a significant change in how donors paid for one-off gifts. Revenue from card payments decreased by 49%, while revenue from PayPal increased by 142%. \n\nActive donors totaled 819, with 134 new donors and 685 returning donors. The shift toward PayPal contributed significantly to the overall revenue stream, indicating a possible preference change among donors in their payment methods during that month.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In February 2026, the revenue from one-off gifts paid via card dropped significantly by approximately 49% compared to January, from about $19,421 to $9,902. Conversely, revenue from PayPal increased by around 142% from $5,448 to $13,202. \n\nThe number of one-off gifts paid via card also fell by 45.9%, while those through PayPal rose by 143.5%. This shift suggests a change in donor payment preferences, with more donors opting for PayPal while card donations decreased. Additionally, there were 819 active donors in February, with 134 new and 685 returning donors, indicating a stable donor base despite the revenue changes.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In February 2026, there were 819 active donors, which included 134 new donors and 685 returning ones, indicating strong engagement. Payment for one-off gifts was split between platforms: 49% via card, generating approximately $9,902, and 51% via PayPal, generating about $13,202. \n\nComparing to the previous month, the churn rate of recurring donors showed a minor increase (3.4%), which may suggest a slight dip in engagement, but it was offset by new donor acquisition. No major lapsed donor trends significantly impacted this month's performance. Overall, the platform mix remained stable, supporting steady one-off gift revenue.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In February 2026, total revenue from donations was $87,497.31, with no contributions exceeding $1,000,000. The active donor count was 819, consisting of 134 new donors and 685 returning donors.\n\nRecurring revenue from card payments was $13,940, with 445 active subscribers, while PayPal contributed $4,335 from 155 subscribers. Churn rates were 3.2% for card subscriptions and 3.8% for PayPal.\n\nAdditionally, eight lapsed donors had contributed in previous months but not in February. The decline in recurring subscriptions on the PayPal platform and the loss of some returning donors likely influenced the changes in payment methods for one-off gifts this month.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 1
+  },
+  {
+    "group": "explain",
+    "question": "What changed in how donors paid for one-off gifts in February 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In February 2026, there was a notable shift in the payment methods for one-off gifts. Revenue from credit card donations decreased significantly to $9,901.91, making up only 48.6% of one-off gifts, compared to $19,420.86 (81%) in January. Conversely, PayPal contributions rose to $13,202.47, representing 51.4% of one-off gifts.\n\nThe total active donors in February reached 819, with 134 being new donors, though there were several lapsed donors from the previous months. This suggests a shift in donor preferences towards using PayPal for one-off gifts, even as the overall donor base grew.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In 2026, there were fluctuations in active subscribers and churn rates across the months. For instance, in April, the churn rate increased to 4.5%, the highest of the year, despite having 594 active subscribers. However, afterwards, both new subscribers and the number of active subscribers rose consistently until August.\n\nThis suggests that while there was a brief dip in subscriber retention, the organization managed to recover by attracting new subscribers later in the year. Overall, the payment platforms showed resilience despite early difficulties.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In 2026, several trends in payment platforms were observed:\n\n1. **Recurring Subscribers**: The active subscribers fluctuated slightly, peaking at 619 in August. Churn rates increased in April to 4.5%, leading to a decline in active subscribers afterward.\n\n2. **Donor Counts**: Active donors decreased significantly in August to 806 from a high of 861 in March. This drop included fewer new donors (126 in August compared to highs of 174 in March).\n\nThese fluctuations suggest possible instability in donor engagement or retention, particularly highlighted by the churn and decrease in active donors in the latter half of the year. The increase in churn rates may indicate challenges in maintaining subscriptions across platforms.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": false,
+    "answer": "In 2026, significant trends emerged across payment platforms:\n\n1. **Subscribers**: The number of active subscribers fluctuated slightly, with the highest being 619 in August. Notably, the majority used **credit card** and **PayPal**; no subscribers utilized wire transfers throughout the year.\n2. **Churn Rates**: Churn rates varied, with a high of 4.5% in April and a low of 2.7% in May.\n3. **Recurring Revenue**: Overall monthly recurring revenue showed stability but experienced minor dips, particularly for credit card subscriptions in August.\n\nThe lack of wire subscribers and fluctuating churn rates could indicate potential issues in retention strategies or platform offerings, driving donors towards more favorable options like PayPal.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In 2026, there was a fluctuation in the number of active subscribers and the monthly recurring revenue (MRR). The churn rate increased to 4.5% in April, which was the highest for the year, indicating potential issues with subscriber retention during that month. However, subscriber numbers and MRR generally improved in subsequent months, suggesting recovery and growth in engagement despite the temporary dip.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In 2026, there were fluctuations in recurring donation metrics across the months, with a notable increase in active subscribers from 595 in January to 619 in August. However, there was an increase in churn rate from 3.7% in January to 4.5% in April, reflecting more donors leaving than in previous months. \n\nDespite the challenges with churn, overall monthly recurring revenue (MRR) experienced a slight upward trend, suggesting that while some subscribers left, new ones continued to join. A stable growth in active subscribers towards the latter half of the year is an encouraging sign for the payment platforms used for donations.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Did anything unusual happen with payment platforms in 2026?",
+    "expected": [
+      "paypal"
+    ],
+    "verifier": true,
+    "answer": "In 2026, there were fluctuations in recurring donor activity across payment platforms. The total active subscribers decreased from 614 in July to 619 in August, with a slight reduction in monthly recurring revenue (MRR) from $18,670.00 to $18,680.00. Notably, there was an increase in churn rate in April (4.5%) compared to earlier months, indicating potential issues with donor retention.\n\nPlatform-wise, while the \"card\" and \"paypal\" contributions maintained stability, \"wire\" donations exhibited significant spikes when large gifts were made, notably with $309,439.51 in April. This volatility suggests reliance on fewer, larger wire contributions, which could impact overall stability if not addressed, revealing a need for more consistent donor engagement across platforms.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "In May 2026, revenue fell by 80.4% compared to April, dropping from $351,693.18 to $69,050.83. \n\nThis significant decline was primarily due to the absence of large gifts; the largest gift in May was only $27,961.84, compared to a substantial $235,393.52 gift received in April. Additionally, while donor counts remained relatively stable, with active donors decreasing slightly from 849 to 839, the influence of fewer high-value donations heavily impacted overall revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "Revenue fell dramatically in May 2026, decreasing by $282,642.35 (about 80.4%) compared to April. This drop was primarily due to a lack of large gifts in May; the largest gift amounted to only $27,961.84, whereas April included a significant gift of $235,393.52.\n\nAdditionally, there were slightly fewer active donors in May (839 vs. 849) and a decrease in new donors (146 vs. 167), though the churn rate for recurring subscriptions improved, suggesting that while fewer new donors contributed, existing donors remained somewhat stable. These factors collectively contributed to the revenue decline.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "Revenue fell from $351,693.18 in April 2026 to $69,050.83 in May 2026. The significant drop can be attributed to a loss of donors, as there were 22 lapsed donors in May, many of whom contributed larger sums in previous months.\n\nAdditionally, the churn rate for recurring subscribers rose, with 18 churned subscribers compared to only 26 new ones, which impacted the monthly recurring revenue. The higher churn and fewer returning donors compared to new ones suggest a decline in donor engagement, leading to reduced revenue.",
+    "passed": false,
+    "unsupported": true,
+    "problems": [
+      "22 in the answer does not appear in any tool result."
+    ],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "In May 2026, revenue fell to **$69,050.83**, down from **$351,693.18** in April. This decline is largely due to a drop in active donors, which decreased from **849** in April to **839** in May. Additionally, the donor count included a higher churn rate in recurring subscribers: the churn rate in May was **3%** compared to **4.5%** in April, indicating more recurring donors dropped off.\n\nMoreover, several larger donations did not occur in May, which typically boosts total revenue. The lack of contributions from lapsed donors also contributed to the revenue decline.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "Revenue fell significantly from $351,693.18 in April to $69,050.83 in May, a decrease of 80.4%. The decline is primarily due to a drop in active donors from 849 in April to 839 in May, along with the loss of several notable donors in May, such as the Harbor Light Trust, which contributed over $132,080 in the previous three months. Additionally, churn in recurring subscriptions increased slightly, contributing to lower monthly recurring revenue.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why did revenue fall in May 2026 compared to April?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "Revenue fell in May 2026 to $69,050.83 from $351,693.18 in April, primarily due to a significant drop in active donors, which fell from 849 to 839. \n\nAdditionally, the recurring revenue slightly increased from $18,270 to $18,560, but the churn rate improved, indicating no significant retention issues. Notably, there were lapsed donors this month who had contributed substantial amounts previously, further contributing to the decline. Thus, the data suggests that fewer active donors and the loss of some larger contributors were the main causes for the revenue drop.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "In May 2026, we lost the major donor \"Harbor Light Trust,\" which had contributed a total of $132,080.11 in the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "In May 2026, we lost the major donor \"Harbor Light Trust,\" which contributed a total of $132,080.11 over the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "In May 2026, we lost a major donor, the Harbor Light Trust, which had contributed a total of $132,080.11 over the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "In May 2026, we lost the major donor \"Harbor Light Trust,\" an organization that contributed a total of $132,080.11 over the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "In May 2026, we lost the major donor \"Harbor Light Trust,\" which contributed a total of $132,080.11 over the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Which major donor did we lose in May 2026?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "In May 2026, we lost a major donor, the Harbor Light Trust, which contributed a total of $132,080.11 over the previous three months.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "From May 2026 onward, monthly revenue showed a sudden decrease, attributed primarily to a significant drop in donations from the largest gifts, as a major donor (Harbor Light Trust) lapsed after donating over $132,000 in the prior months. \n\nIn May, total revenue was $69,050.83, while June saw a rebound to $185,728.91. Active donors remained relatively stable, with 839 in May and 841 in June. However, the churn rate increased slightly from 3% to 3.5%, and new subscribers were almost unchanged. The new lapsed donors in June further supported this decline in revenue. Overall, the loss of significant donations from a key contributor was the main factor behind the lower revenue from May onwards.",
+    "passed": true,
+    "unsupported": true,
+    "problems": [
+      "132000 in the answer does not appear in any tool result."
+    ],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "The decline in monthly revenue starting from May 2026 can be attributed to several factors. \n\n1. **Revenue Without Large Gifts**: In May, the revenue was $69,050.83; in June it rose significantly to $185,728.91 due to larger gifts over $1 million. However, this exceptional revenue drop-off to $64,739.74 in July indicates reliance on such gifts.\n\n2. **Donor Counts**: Active donors increased slightly from May to July, peaking at 850, but new donors fluctuated and decreased in August to 126. \n\n3. **Recurring Donations**: The March revenue from recurring donations showed only a slight churn increase, but this stability was insufficient to offset the drop in higher-value donations.\n\nThus, reliance on large one-time gifts in June led to a deceptive spike, while the subsequent drop in new donor contributions and increased lapsed donors contributed to the decline in revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": false,
+    "answer": "From May 2026 onwards, monthly revenue fluctuated, showing a drop to **$64,739.74** in July after a peak of **$185,728.91** in June. The decrease was influenced by several factors:\n\n1. **Lapsed Donors**: There was a significant number of lapsed donors in both June and July, from **10 lapsed in June** to **10 in July**.\n   \n2. **Recurring Donations**: While the Monthly Recurring Revenue (MRR) was relatively stable, a consistent churn rate was observed with **21 churned subscribers in June** and **23 in July**.\n\n3. **Active Donor Counts**: Active donors went from **839 in May** to **806 in August**, indicating a gradual decline in active participation.\n\nThese metrics suggest that while revenue rose in June, subsequent lapses and churn led to a decrease in revenue beyond May.",
+    "passed": false,
+    "unsupported": true,
+    "problems": [
+      "10 in the answer does not appear in any tool result.",
+      "10 in the answer does not appear in any tool result."
+    ],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "Monthly revenue dropped from May 2026 onwards primarily due to a significant decline in donations from larger gifts. In May, the total revenue was $69,050.83, but when excluding gifts over $1,000,000, it was $690,50.83, indicating smaller contributions.\n\nAdditionally, the donor count decreased as more lapsed donors contributed across the previous months. In June, there were 841 active donors, with a churn rate of 3.5% for recurring subscriptions, compared to 3% in May. This suggests ongoing donor disengagement, impacting overall revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "Monthly revenue decreased after May 2026, particularly in July (down to \\$64,739.74) from \\$185,728.91 in June. This decline can be attributed to a combination of factors: \n\n1. **Lapsed Donors**: There were several donors who had given in the previous months but not in June 2026. Notably, new donors increased but returning donors decreased slightly.\n2. **Recurring Donations**: The churn rate increased slightly from 3.0% in May to 3.5% in June, leading to fewer active subscribers, which generally means less predictable revenue.\n\nThese trends indicate that while new donor acquisition remained stable, there was a concerning level of donor attrition combined with reduced recurring revenue, contributing to the overall drop in monthly revenue.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "explain",
+    "question": "Why is monthly revenue lower from May 2026 on?",
+    "expected": [
+      "harbor light"
+    ],
+    "verifier": true,
+    "answer": "The decline in monthly revenue starting from May 2026 can be attributed to an increase in lapsed donors. In June, 10 donors who had contributed over the previous three months did not donate again. Additionally, while active subscribers slightly increased from May to June, the churn rate increased from 3% to 3.5%, indicating more subscribers are leaving. Therefore, the combination of lapsed donors and increased churn among recurring donations is impacting overall revenue.",
+    "passed": false,
+    "unsupported": true,
+    "problems": [
+      "10 in the answer does not appear in any tool result."
+    ],
+    "retries": 2
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I'm unable to provide information about donor satisfaction scores, as this data is not available in the current set of tools.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I currently do not have access to donor satisfaction scores in the available tools. Please provide a different question regarding donations or fundraising data.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to donor satisfaction scores or surveys. If you have another type of data, I can help analyze that.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have access to donor satisfaction scores or metrics related to satisfaction. If you have other questions about donations or donor behavior, feel free to ask!",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the ability to provide a donor satisfaction score, as it may require survey data or qualitative measures not captured in the current dataset. If you have specific metrics or information to analyze, please share, and I can assist with that.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is our donor satisfaction score?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have access to donor satisfaction scores or related metrics. If you have any other specific questions about donations or fundraising data, feel free to ask!",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have the data on campaign expenses. I can only provide insights and analytics related to donations and fundraising metrics.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have data on campaign spending. You may need to check your financial records or budget reports for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I'm unable to provide specific spending figures for the year-end campaign as that information is not available in the tools.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I currently don't have access to specific spending data on the year-end campaign. If you provide more details or context, I might be able to help with related information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot provide information about spending on the year-end campaign. The tools available only provide data on donations and donor metrics, not on expenditures.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did we spend on the year-end campaign?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can’t provide information on expenditures for the year-end campaign as the tools available only track donations and donor metrics. If you have another question regarding donations or fundraising data, feel free to ask!",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can only provide data from January 2023 to August 2026. Therefore, I do not have information about revenue in March 2022.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can only provide data from January 2023 to August 2026. Therefore, I'm unable to provide revenue information for March 2022.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can only provide data from January 2023 to August 2026. Therefore, I cannot retrieve revenue information for March 2022.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can only provide data from January 2023 to August 2026. Therefore, I cannot give you the revenue for March 2022.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can't access data for March 2022. The available data covers from January 2023 onwards.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in March 2022?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can only provide data from January 2023 to August 2026. I cannot access revenue data for March 2022.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to future data or projections, so I can't determine the revenue for December 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can't predict future revenue. However, I can analyze past revenue trends if you provide a specific month to investigate or any particular aspects you're interested in.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I cannot predict future revenue. If you have any historical data questions or need analyses based on past trends, feel free to ask!",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot predict future revenue. Please provide actual data from past months for analysis.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot predict future revenue. However, I can provide insights on past revenue trends or breakdowns if you're interested.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What will revenue be in December 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot predict future revenue. My tools only provide historical data and analysis based on past performance.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to data regarding email openings. You may need to check your email marketing platform for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to data regarding email open rates or donor interactions with emails. You may need to consult your email marketing platform for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to data regarding email open rates. You might want to check your email marketing platform for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have access to data on email opens or engagement metrics. Please provide specific donation-related questions or data points you'd like to analyze.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I currently do not have access to data regarding email open rates or donor engagement metrics related to emails. Please provide another question related to donations or fundraising data.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How many donors opened our last email?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the data about email open rates or donor interactions with emails. You may need to check your email marketing platform for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can't provide the average age of donors as the available tools do not include demographic information like age.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I cannot provide the average age of the donors, as this information is not available in the tools.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can't provide information about the average age of donors, as it isn't available in the data.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the necessary data to determine the average age of your donors. If there's anything else you'd like to know regarding donations or donor behavior, feel free to ask!",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can't provide the average age of your donors as that specific information is not available in the tools.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What is the average age of our donors?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can't provide the average age of donors as that information is not available in the tools.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I'm unable to provide information about specific donors and their locations, including those living in Kyiv.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to donor location data, so I can't provide information on which donors live in Kyiv.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can't retrieve specific donor information such as locations. Please let me know if you have any other questions about the data.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot provide information on the specific locations of donors, including whether any live in Kyiv.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the capability to identify specific donors or their locations. You may need to consult your donor database for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Which donors live in Kyiv?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I can't provide information about specific donors' locations, including whether any live in Kyiv.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have data for the revenue in October 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I can't retrieve the revenue for October 2026; the data for that month is not available.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have the revenue data for October 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have data for the revenue in October 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the revenue data for October 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "What was revenue in October 2026?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have the revenue data for October 2026.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I cannot determine the fees charged by PayPal in 2025 with the available data.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I don't have access to data regarding the fees charged by PayPal. If you have other questions about donations or fundraising metrics, feel free to ask!",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": false,
+    "answer": "I cannot determine the PayPal fees for 2025 with the provided data tools. Please check your financial records or the PayPal account for the specific fee information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have access to specific fee data for the payment platforms, including PayPal. You may need to check your financial records directly for that information.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I cannot provide information on the fees charged by PayPal. You may want to check with your accounting or financial department for detailed financial statements related to PayPal transactions.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "How much did PayPal charge us in fees in 2025?",
+    "expected": null,
+    "verifier": true,
+    "answer": "I don't have access to specific fee data for PayPal or any payment processing fees during 2025.",
+    "passed": true,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": false,
+    "answer": "Harbor Light Trust has stopped giving, identifying them among the lapsed donors for August 2026. They had been a significant contributor, with total donations of approximately $1.66 million across 40 gifts. \n\nWhile specific reasons for their cessation aren't captured in the data, their absence could be linked to donor fatigue or shifts in strategic focus, which often impact bigger donors. Further investigation into their recent engagement or external factors might shed more light on this change.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": false,
+    "answer": "Harbor Light Trust has lapsed in donations but specific reasons for their cessation aren't available from the data. However, they were one of the top donors, contributing approximately $1.66 million across 40 gifts. Their status as a lapsed donor suggests potential changes in funding priorities, financial conditions, or organizational focus that aren't directly noted here.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": false,
+    "answer": "Harbor Light Trust has stopped giving, as indicated by their absence among any donations in the last period. In the first half of 2023, they were one of the top donors, contributing approximately $330,696. However, their last recorded gift appears to be before the lapsed donor period began, suggesting a significant decline in engagement.\n\nThe most considerable recent gifts were from organizations like the Northbridge Family Foundation, which donated $5,000,000 in late 2024, indicating a shift in funding sources. This change may have impacted Harbor Light Trust's decision-making regarding their contributions.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": true,
+    "answer": "Harbor Light Trust stopped giving because it is among the lapsed donors, having given a total of approximately $406,846.39 over ten gifts until October 2023. The significant increase in active and returning donors from September to October (from 301 to 339 and 160 to 186, respectively) suggests that while some donors have stopped giving, the organization is gaining new supporters, which may offset losses.\n\nThis change indicates a fluctuation in donor commitment rather than systemic issues within the organization, such as financial challenges or donor dissatisfaction.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": true,
+    "answer": "Harbor Light Trust lapsed in March 2025 after contributing $32,887.51 in February. The significant churn of 88.1% in active donors (from 470 to 425) may have contributed to the cessation, along with a decrease in donation activity. With fewer new donors and a notable number of lapsed donors, the overall donor base's instability likely influenced their decision to stop giving.",
+    "passed": false,
+    "unsupported": true,
+    "problems": [
+      "change() was called with {'before': 117689.86, 'after': 0}, but those values are not from tool results.",
+      "change() was called with {'before': 107600.18, 'after': 0}, but those values are not from tool results.",
+      "change() was called with before from 2025-03 and after from 2025-02. before must be the earlier month.",
+      "change() was called with before from 2025-03 and after from 2025-02. before must be the earlier month."
+    ],
+    "retries": 2
+  },
+  {
+    "group": "trap",
+    "question": "Why did Harbor Light Trust stop giving?",
+    "expected": null,
+    "verifier": true,
+    "answer": "Harbor Light Trust is not listed among the lapsed donors for October 2023, so it's unclear why they stopped giving. They might not have contributed in the last three months but are not in the top lapsed donors. More specific information on their donation history or patterns would be needed to determine the reasoning behind their cessation of donations.",
+    "passed": false,
+    "unsupported": false,
+    "problems": [],
+    "retries": 0
+  }
+]
