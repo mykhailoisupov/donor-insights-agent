@@ -114,10 +114,8 @@ def tool_calls(messages):
 
 @analyst.output_validator
 def check_answer(ctx: Ctx, answer: str) -> str:
-    if not ctx.deps.use_verifier:
-        return answer
     ctx.deps.problems = verify.check(answer, ctx.prompt, tool_calls(ctx.messages))
-    if ctx.deps.problems and ctx.deps.retries < MAX_RETRIES:
+    if ctx.deps.use_verifier and ctx.deps.problems and ctx.deps.retries < MAX_RETRIES:
         ctx.deps.retries += 1
         raise ModelRetry("Fix these problems and answer again:\n" + "\n".join(ctx.deps.problems))
     return answer
@@ -128,8 +126,8 @@ def data():
     return metrics.load()
 
 
-def ask(question, use_verifier=True):
+async def ask(question, use_verifier=True):
     deps = Deps(data(), use_verifier)
-    result = analyst.run_sync(question, deps=deps)
+    result = await analyst.run(question, deps=deps)
     calls = [f"{name}({args})" for name, args, _ in tool_calls(result.all_messages())]
     return {"answer": result.output, "calls": calls, "problems": deps.problems, "retries": deps.retries}
