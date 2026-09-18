@@ -1,6 +1,12 @@
 # Donor Insights Agent
 
-An AI analyst for nonprofit fundraising data. Ask a question in plain language ("why did revenue drop in March 2025?") and the agent calls analysis tools, then answers. A verifier rejects any answer containing a number that did not come from a tool.
+An AI analyst for nonprofit fundraising data. Ask a question in plain language ("why did revenue drop in March 2025?") and the agent calls analysis tools, then answers.
+
+A verifier checks every answer before it is returned:
+- every number must come from a tool result
+- comparisons must go from the earlier month to the later one
+
+If a check fails, the agent gets the problems back and retries (up to 2 times).
 
 ## Data
 
@@ -19,6 +25,7 @@ All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2
 - `data/generate.py`: synthetic data and planted events
 - `agent/metrics.py`: analysis functions the agent calls as tools
 - `agent/analyst.py`: the agent (PydanticAI + gpt-4o-mini)
+- `agent/verify.py`: the verifier
 - `tests/`: unit tests and checks that each planted event is detectable
 
 ## Run
@@ -38,6 +45,6 @@ python -m agent "What happened to recurring donations in March 2025?"
 - [x] Synthetic data
 - [x] Metrics
 - [x] Agent
-- [ ] Verifier
+- [x] Verifier
 - [ ] Evals
 - [ ] Demo
