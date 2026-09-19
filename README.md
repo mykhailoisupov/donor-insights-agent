@@ -44,18 +44,23 @@ python -m evals.run 3
 
 ## Results
 
-30 questions, 3 runs each, gpt-4o-mini ([details](evals/results.md)):
+30 questions, 3 runs each, gpt-4o-mini, verifier on ([details](evals/results.md)):
 
-| | Verifier off | Verifier on |
+| | Before | After |
 |---|---|---|
-| Lookups correct | 100% | 97% |
-| Explanations correct | 57% | 60% |
-| Unanswerable questions refused | 90% | 87% |
-| Answers with unsupported numbers | 6% | 2% |
+| Lookups correct | 97% | 97% |
+| Explanations correct | 60% | 100% |
+| Unanswerable questions refused | 87% | 97% |
+| Answers with unsupported numbers | 2% | 4% |
 
-- The verifier cuts unsupported numbers in explanations from 17% to 3%, but does not make the reasoning better.
-- Explanations are the weak spot: the agent often misses that the March 2025 churn was card-only and that the May 2026 drop was one lapsed donor.
-- Asked why a donor stopped giving, the agent speculates in every run instead of saying the data cannot tell.
+"After" is the same agent with more specific instructions, written from the first eval's failures:
+- check lapsed donors and churn per payment platform when explaining a change
+- list what the data does not contain, and never guess why a donor acted
+
+What the evals show:
+- The verifier catches made-up numbers, swapped months and the model's own arithmetic, but does not improve reasoning. The instructions did that.
+- Longer explanations made more `change()` calls, and the model sometimes calls it with guessed values before the data tools return. The verifier flags these, but the model does not always fix them within 2 retries.
+- Asked for the overall churn rate in March 2025, the agent sometimes gives only the per-platform rates.
 
 ## Status
 

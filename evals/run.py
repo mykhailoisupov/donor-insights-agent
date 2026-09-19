@@ -11,10 +11,9 @@ from agent.verify import matches, numbers
 from evals.questions import EXPLAIN, LOOKUP, TRAP
 
 OUT = Path(__file__).parent
-REFUSALS = ["not available", "don't have", "do not have", "cannot", "can't", "unable", "no data",
-            "not possible", "doesn't include", "does not include", "not include", "not track",
-            "only covers", "outside", "not provide", "doesn't provide", "does not provide",
-            "only provide", "only have", "could not", "couldn't", "no information"]
+REFUSALS = ["does not", "doesn't", "do not", "don't", "cannot", "can't", "could not", "couldn't",
+            "unable", "no data", "no information", "not available", "only covers", "only includes",
+            "only provide", "only have", "outside"]
 
 
 def cases():
