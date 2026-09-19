@@ -26,6 +26,7 @@ All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2
 - `agent/metrics.py`: analysis functions the agent calls as tools
 - `agent/analyst.py`: the agent (PydanticAI + gpt-4o-mini)
 - `agent/verify.py`: the verifier
+- `app.py`: Streamlit demo
 - `evals/`: 30 questions (lookups, explanations, unanswerable traps) and the eval runner
 - `tests/`: unit tests and checks that each planted event is detectable
 
@@ -40,6 +41,7 @@ python data/generate.py
 python -m pytest
 python -m agent "What happened to recurring donations in March 2025?"
 python -m evals.run 3
+streamlit run app.py
 ```
 
 ## Results
@@ -69,4 +71,4 @@ What the evals show:
 - [x] Agent
 - [x] Verifier
 - [x] Evals
-- [ ] Demo
+- [x] Demo
