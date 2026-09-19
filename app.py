@@ -32,19 +32,16 @@ def run(question, use_verifier):
     return asyncio.run_coroutine_threadsafe(ask(question, use_verifier), event_loop()).result()
 
 
-def show(item):
-    with st.chat_message("user"):
-        st.write(item["question"])
-    with st.chat_message("assistant"):
-        st.markdown(item["answer"].replace("$", "\\$"))
-        if not item["verifier"]:
-            st.info("Verifier off")
-        elif item["problems"]:
-            st.warning("Verifier could not resolve:\n\n" + "\n".join(f"- {p}" for p in item["problems"]))
-        else:
-            st.success(f"Verified: every number comes from a tool result (retries: {item['retries']})")
-        with st.expander(f"{len(item['calls'])} tool calls"):
-            st.code("\n".join(item["calls"]), language=None)
+def show_answer(item):
+    st.markdown(item["answer"].replace("$", "\\$"))
+    if not item["verifier"]:
+        st.info("Verifier off")
+    elif item["problems"]:
+        st.warning("Verifier could not resolve:\n\n" + "\n".join(f"- {p}" for p in item["problems"]))
+    else:
+        st.success(f"Verified: every number comes from a tool result (retries: {item['retries']})")
+    with st.expander(f"{len(item['calls'])} tool calls"):
+        st.code("\n".join(item["calls"]), language=None)
 
 
 st.set_page_config(page_title="Donor Insights Agent")
@@ -68,7 +65,9 @@ st.caption("An AI analyst for a synthetic nonprofit's donations, 2023-01 to 2026
 
 st.session_state.setdefault("history", [])
 for item in st.session_state.history:
-    show(item)
+    st.chat_message("user").write(item["question"])
+    with st.chat_message("assistant"):
+        show_answer(item)
 
 if len(st.session_state.history) >= MAX_QUESTIONS:
     st.info(f"This demo allows {MAX_QUESTIONS} questions per session. Clone the repo to run it with your own key.")
@@ -76,7 +75,9 @@ if len(st.session_state.history) >= MAX_QUESTIONS:
 
 question = st.chat_input("Ask about the donations") or st.session_state.pop("question", None)
 if question:
-    with st.spinner("Analysing..."):
-        item = {"question": question, "verifier": use_verifier, **run(question, use_verifier)}
+    st.chat_message("user").write(question)
+    with st.chat_message("assistant"):
+        with st.spinner("Analysing..."):
+            item = {"question": question, "verifier": use_verifier, **run(question, use_verifier)}
+        show_answer(item)
     st.session_state.history.append(item)
-    show(item)
