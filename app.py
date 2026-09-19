@@ -28,8 +28,9 @@ def event_loop():
     return loop
 
 
-def run(question, use_verifier):
-    return asyncio.run_coroutine_threadsafe(ask(question, use_verifier), event_loop()).result()
+def run(question, use_verifier, use_context):
+    coroutine = ask(question, use_verifier, use_context)
+    return asyncio.run_coroutine_threadsafe(coroutine, event_loop()).result()
 
 
 def show_answer(item):
@@ -50,6 +51,7 @@ if not (metrics.DATA_DIR / "gifts.csv").exists():
 
 with st.sidebar:
     use_verifier = st.toggle("Verifier", value=True)
+    use_context = st.toggle("Context notes", value=True, help="Company background and known events from context.md")
     st.subheader("Monthly revenue")
     revenue = metrics.monthly_revenue(data(), "2023-01", "2026-08", max_gift=1_000_000)
     st.line_chart(pd.Series(revenue, name="USD"), height=200)
@@ -78,6 +80,6 @@ if question:
     st.chat_message("user").write(question)
     with st.chat_message("assistant"):
         with st.spinner("Analysing..."):
-            item = {"question": question, "verifier": use_verifier, **run(question, use_verifier)}
+            item = {"question": question, "verifier": use_verifier, **run(question, use_verifier, use_context)}
         show_answer(item)
     st.session_state.history.append(item)

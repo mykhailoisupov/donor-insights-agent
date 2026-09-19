@@ -36,11 +36,11 @@ def matches(value, decimals, unit, known):
     return any(abs(round(c / scale, decimals) - value) < 1e-9 for c in candidates)
 
 
-def check(answer, question, calls):
+def check(answer, given, calls):
     data = [(v, m) for name, _, result in calls if name != "change" for v, m in facts(result)]
     known = [v for _, _, result in calls for v, _ in facts(result)]
     known += [v for name, args, _ in calls if name != "change" for v, _ in facts(args)]
-    known += [v for v, _, _ in numbers(question)]
+    known += [v for v, _, _ in numbers(given)]
 
     problems = []
     for value, decimals, unit in numbers(answer):

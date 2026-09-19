@@ -1,6 +1,7 @@
 import os
 from dataclasses import dataclass, field
 from functools import cache
+from pathlib import Path
 from typing import Literal
 
 import pandas as pd
@@ -38,6 +39,16 @@ Answer exactly what was asked first, in a few short sentences. Use per-platform 
 breakdowns only to explain a change, not in place of the number that was asked for.
 """
 
+CONTEXT_FILE = Path(__file__).resolve().parent.parent / "context.md"
+CONTEXT = CONTEXT_FILE.read_text(encoding="utf-8") if CONTEXT_FILE.exists() else ""
+CONTEXT_RULES = """
+Below are context notes written by the organisation. First find the pattern in the data, then check
+the notes: if a known event matches the month and the pattern, name it as the likely cause and say it
+comes from the notes. If the notes give a donor's reason, you may cite
+it. Numbers must still come from tool results. If the notes and the data disagree, trust the data
+and point out the difference.
+"""
+
 MAX_RETRIES = 2
 
 
@@ -45,6 +56,7 @@ MAX_RETRIES = 2
 class Deps:
     gifts: pd.DataFrame
     use_verifier: bool = True
+    use_context: bool = True
     problems: list = field(default_factory=list)
     retries: int = 0
 
@@ -123,9 +135,15 @@ def tool_calls(messages):
     return [(name, args, results.get(call_id)) for call_id, (name, args) in calls.items()]
 
 
+@analyst.instructions
+def context_notes(ctx: Ctx) -> str:
+    return CONTEXT_RULES + CONTEXT if ctx.deps.use_context and CONTEXT else ""
+
+
 @analyst.output_validator
 def check_answer(ctx: Ctx, answer: str) -> str:
-    ctx.deps.problems = verify.check(answer, ctx.prompt, tool_calls(ctx.messages))
+    given = ctx.prompt + (CONTEXT if ctx.deps.use_context else "")
+    ctx.deps.problems = verify.check(answer, given, tool_calls(ctx.messages))
     if ctx.deps.use_verifier and ctx.deps.problems and ctx.deps.retries < MAX_RETRIES:
         ctx.deps.retries += 1
         raise ModelRetry("Fix these problems and answer again:\n" + "\n".join(ctx.deps.problems))
@@ -137,8 +155,8 @@ def data():
     return metrics.load()
 
 
-async def ask(question, use_verifier=True):
-    deps = Deps(data(), use_verifier)
+async def ask(question, use_verifier=True, use_context=True):
+    deps = Deps(data(), use_verifier, use_context)
     result = await analyst.run(question, deps=deps)
     calls = [f"{name}({args})" for name, args, _ in tool_calls(result.all_messages())]
     return {"answer": result.output, "calls": calls, "problems": deps.problems, "retries": deps.retries}

@@ -42,7 +42,7 @@ async def run(case, limit):
     for attempt in range(3):
         try:
             async with limit:
-                result = await ask(question, use_verifier)
+                result = await ask(question, use_verifier, use_context=False)
             return row | {"answer": result["answer"], "passed": score(group, result["answer"], expected),
                           "unsupported": bool(result["problems"]), "problems": result["problems"],
                           "retries": result["retries"]}

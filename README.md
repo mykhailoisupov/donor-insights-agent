@@ -8,6 +8,8 @@ A verifier checks every answer before it is returned:
 
 If a check fails, the agent gets the problems back and retries (up to 2 times).
 
+`context.md` holds company background and known events (campaigns, outages, product changes). The agent uses it to name causes, but numbers still have to come from the data. Edit it to add your own context.
+
 ## Data
 
 All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2023-01 to 2026-08. The generator plants five events, which serve as ground truth for the evals:
@@ -26,6 +28,7 @@ All data is synthetic (`data/generate.py`): about 7k donors and 25k gifts from 2
 - `agent/metrics.py`: analysis functions the agent calls as tools
 - `agent/analyst.py`: the agent (PydanticAI + gpt-4o-mini)
 - `agent/verify.py`: the verifier
+- `context.md`: company background and known events
 - `app.py`: Streamlit demo
 - `evals/`: 30 questions (lookups, explanations, unanswerable traps) and the eval runner
 - `tests/`: unit tests and checks that each planted event is detectable
@@ -46,7 +49,7 @@ streamlit run app.py
 
 ## Results
 
-30 questions, 3 runs each, gpt-4o-mini, verifier on ([details](evals/results.md)):
+30 questions, 3 runs each, gpt-4o-mini, verifier on, without context notes ([details](evals/results.md)):
 
 | | Before | After |
 |---|---|---|
