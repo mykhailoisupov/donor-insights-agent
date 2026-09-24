@@ -2,11 +2,11 @@
 
 | Questions | Verifier | Correct | Unsupported numbers | Avg retries |
 |---|---|---|---|---|
-| lookup | off | 97% | 0% | 0.00 |
-| lookup | on | 97% | 0% | 0.00 |
-| explain | off | 97% | 17% | 0.00 |
-| explain | on | 100% | 13% | 0.27 |
-| trap | off | 97% | 0% | 0.00 |
-| trap | on | 97% | 0% | 0.00 |
-| all | off | 97% | 6% | 0.00 |
-| all | on | 98% | 4% | 0.09 |
+| lookup | off | 100% | 0% | 0.00 |
+| lookup | on | 100% | 0% | 0.00 |
+| explain | off | 100% | 7% | 0.00 |
+| explain | on | 100% | 7% | 0.13 |
+| trap | off | 100% | 0% | 0.00 |
+| trap | on | 100% | 0% | 0.00 |
+| all | off | 100% | 2% | 0.00 |
+| all | on | 100% | 2% | 0.04 |
