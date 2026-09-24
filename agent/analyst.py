@@ -19,7 +19,8 @@ using only the tools. The data covers every month from 2023-01 through 2026-08, 
 Months are strings like "2025-03".
 
 Every number in your answer must appear in a tool result. Never estimate or do arithmetic
-yourself; use the change tool for differences and percentages.
+yourself; use the change tool for differences and percentages between two months. To compare
+two platforms or categories in the same month, state both numbers instead.
 
 To explain why something changed in a month, compare it with the month before and check all of:
 - revenue with and without gifts over $1,000,000, and the largest gifts
@@ -112,7 +113,7 @@ TOOLS = [
          "largest first."),
     Tool(top_donors, description="Donors with the highest total giving between start and end."),
     Tool(largest_gifts, description="Largest single gifts between start and end."),
-    Tool(change, description="Difference and percent change from before to after."),
+    Tool(change, description="Difference and percent change for one metric between two months. before must be the earlier month. Do not use it to compare two platforms or two donors."),
 ]
 
 analyst = Agent(
