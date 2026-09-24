@@ -56,3 +56,27 @@ def test_written_dates_are_ignored():
     tool_calls = [("largest_gifts", {"start": "2023-01", "end": "2023-12"},
                    [{"date": "2023-04-28", "amount_usd": 225715.05}])]
     assert check("The largest gift was $225,715.05 on April 28, 2023.", "", tool_calls) == []
+
+
+MARCH_CARD = {"month": "2025-03", "platform": "card", "mrr": 9605}
+MARCH_PAYPAL = {"month": "2025-03", "platform": "paypal", "mrr": 3190}
+FEBRUARY_CARD = {"month": "2025-02", "platform": "card", "mrr": 10910}
+
+
+def platform_calls(before, after):
+    return [("recurring", {"month": "2025-03", "platform": "card"}, MARCH_CARD),
+            ("recurring", {"month": "2025-03", "platform": "paypal"}, MARCH_PAYPAL),
+            ("recurring", {"month": "2025-02", "platform": "card"}, FEBRUARY_CARD),
+            ("change", {"before": before, "after": after}, {"difference": after - before})]
+
+
+def test_two_platforms_in_one_month_are_not_a_change():
+    answer = "Card MRR fell from $9,605 in February to $3,190 in March."
+    problems = check(answer, "", platform_calls(9605, 3190))
+    assert len(problems) == 1
+    assert "two months" in problems[0]
+
+
+def test_same_platform_across_months_passes():
+    answer = "Card MRR fell from $10,910 in February to $9,605 in March."
+    assert check(answer, "", platform_calls(10910, 9605)) == []
