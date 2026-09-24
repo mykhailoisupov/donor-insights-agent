@@ -2,6 +2,8 @@
 
 ![tests](https://github.com/mykhailoisupov/donor-insights-agent/actions/workflows/tests.yml/badge.svg)
 
+**Live demo: [donors-insights-agent.streamlit.app](https://donors-insights-agent.streamlit.app/)**
+
 An AI analyst for nonprofit fundraising data. Ask a question in plain language and the agent calls analysis tools, then answers. Fundraising teams ask "why did revenue drop?" every month, and a model that invents numbers is worse than no answer, so every answer is checked before it is shown.
 
 The verifier rejects an answer when:
@@ -11,6 +13,8 @@ The verifier rejects an answer when:
 A rejected answer goes back to the agent with the reasons, and it retries (up to 2 times).
 
 `context.md` holds company background and known events (campaigns, outages, product changes). The agent uses it to name causes, but numbers still have to come from the data.
+
+![the demo answering a question](docs/demo.png)
 
 ## Example
 
